@@ -1,0 +1,12 @@
+#about #logo_tile {
+  width 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url(about_tile.jpg);
+  background-repeat: repeat-x;
+  text-align: center; 
+}
+
+#about p {
+  text-align: center;
+}

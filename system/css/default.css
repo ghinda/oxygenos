@@ -1,0 +1,136 @@
+body {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;  
+}
+
+#desktop-icons {
+  position: relative;
+  top: 10px;
+  left: 10px;    
+  width: 100%;     
+  text-align: center;      
+}
+
+#desktop-icons div.icon {  
+  cursor: default;
+}
+
+#taskbar {
+  position: absolute;
+  bottom: -1px;
+  height: 30px;  
+  z-index: 2000;
+  width: 100%;  
+}
+
+#taskbar .task {
+  cursor: default;
+  float: left;
+  width: 150px;
+  overflow: hidden;  
+}
+
+#taskbar #kicker {
+  cursor: pointer;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 32px;
+  height: 32px;
+  font-size: 1px;
+  background-image: url(../desktop/icons/kicker.png);
+  overflow: hidden;  
+}
+
+#startmenu {
+  float: left;
+  position: absolute;
+  left: 5px;
+  bottom: 45px;
+  border: 1px outset;  
+  z-index: 2001;  
+}
+
+#windows { display: none; }
+#widgets { 
+  position: absolute;  
+  width: 250px; 
+  right: 0px;
+  top: 20px;
+}
+
+
+#loader {
+  position: absolute;
+  left:0px;
+  top:0px;
+  width: 100%;
+  height: 100%;
+  padding-top: 50%;
+  background-color: #000;
+  opacity: 0.9;
+  color: #fff;
+  text-align: center;
+  z-index: 2002;
+  }
+
+.tool {
+  float: left;
+  width: 65px;
+  cursor: default;
+  padding: 40px 2px 2px 2px;
+  margin-right: 5px;
+  font-weight: bold;		 
+  text-align: center;
+  background-position: center 5px;
+  background-repeat: no-repeat;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+}
+			
+.tool-hover {
+  background-color: #C8DFF7;
+	border-color: #77ACFD; 
+}
+
+.fileSelector {
+  position: absolute;  
+  width: 100%;
+  height: 100%;
+  min-height: 1500px;
+  background-color: #fff;
+  display: none;
+  padding: 10px;
+}
+
+/* desktop +icons */ 
+
+body {
+  background-color: #000;
+  background-image: url();
+  background-position: top;  
+  background-repeat: no-repeat;
+  font-family: "Bitstream Vera Sans", Arial, sans-serif;
+	font-size: 12px;  	 
+}
+
+html>body {
+  font-family: "Bitstream Vera Sans", Arial, sans-serif;
+  } 
+
+.icon {
+  float: left;  
+  padding: 55px 10px 2px 10px;
+  margin: 10px;
+  -moz-border-radius: 5px;
+  color: #fff;
+  text-align: center;  
+  background-repeat: no-repeat;
+  background-position: center 5px;
+}
+
+.icon-hover {  
+  background-color: #1D1D1D;
+}

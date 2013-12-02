@@ -1,0 +1,31 @@
+#sticky {      
+  width: 200px;  
+  height: 200px;  
+  background-image: url(sticky.png);
+  background-repeat: no-repeat;
+}
+
+#sticky .close {
+  float: right;
+  clear: both;  
+  width: 10px;
+  margin-right: 12px;
+  text-align: center;
+  padding: 2px;
+  margin: 2px;
+  cursor: pointer;
+  color: #000; 
+}
+
+#sticky .close-hover {
+  color: #fff;
+  background-color: #000;      
+}
+
+#sticky #stickyTextArea {      
+  width: 175px;
+  height: 160px;
+  margin-left: 15px;
+  border-width: 0px;
+  background-color: transparent;
+}

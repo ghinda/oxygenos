@@ -1,0 +1,135 @@
+/* This file skins dialog */
+
+.ozone .ui-dialog,
+.ozone.ui-dialog {
+	background-color: #E4E3E1;
+  
+  /* hack to make rounded borders transparent */
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-width: 1px;	
+}
+
+.ozone .ui-dialog .ui-dialog-titlebar,
+.ozone.ui-dialog .ui-dialog-titlebar {        
+	padding: 0px;
+	height: 25px;
+	_height: 26px;	
+	
+	/* hack to make rounded borders transparent */
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-width: 1px;	
+}
+
+.ozone .ui-dialog.ui-draggable .ui-dialog-titlebar,
+.ozone.ui-dialog.ui-draggable .ui-dialog-titlebar {
+	cursor: move;
+}
+
+/* oxygenos edit: minimize behaviour */
+
+.ozone .ui-dialog .ui-dialog-titlebar-minimize,
+.ozone.ui-dialog .ui-dialog-titlebar-minimize {
+	width: 22px;
+	height: 16px;
+	background-image: url(i/window_minimize.png);
+  background-repeat: no-repeat;
+	position:absolute;
+	top: 5px;
+	right: 35px;
+	cursor: default;
+}
+
+.ozone .ui-dialog .ui-dialog-titlebar-minimize span,
+.ozone.ui-dialog .ui-dialog-titlebar-minimize span {
+	display: none;
+}
+
+.ozone .ui-dialog .ui-dialog-titlebar-minimize-hover,
+.ozone.ui-dialog .ui-dialog-titlebar-minimize-hover {
+	background: url(i/window_minimize_hover.png) no-repeat;
+}
+
+/* end oxygenos edit: minimize behaviour */
+
+.ozone .ui-dialog .ui-dialog-titlebar-close,
+.ozone.ui-dialog .ui-dialog-titlebar-close {
+	width: 22px;
+	height: 16px;
+	background: url(i/window_close.png) no-repeat;
+	position:absolute;
+	top: 5px;
+	right: 11px;
+	cursor: default;
+}
+
+.ozone .ui-dialog .ui-dialog-titlebar-close span,
+.ozone.ui-dialog .ui-dialog-titlebar-close span {
+	display: none;
+}
+
+.ozone .ui-dialog .ui-dialog-titlebar-close-hover,
+.ozone.ui-dialog .ui-dialog-titlebar-close-hover {
+	background: url(i/window_close_hover.png) no-repeat;
+}
+
+.ozone .ui-dialog .ui-dialog-title,
+.ozone.ui-dialog .ui-dialog-title {
+	display: block;
+	background: url(i/window_header_tile.png) repeat-x;
+	padding: 0px;
+	height: 25px;	
+	
+  margin-left: 5px;
+  margin-right: 5px;
+	color: white;
+	font-weight: bold;
+	position: relative;
+	padding-top: 7px;
+	padding-left: 4px;
+}
+
+.ozone .ui-dialog .ui-dialog-content,
+.ozone.ui-dialog .ui-dialog-content {
+	margin: 1.2em;	
+}
+
+.ozone .ui-dialog .ui-dialog-buttonpane,
+.ozone.ui-dialog .ui-dialog-buttonpane {
+	position: absolute;
+	bottom: 8px;
+	right: 12px;
+	width: 100%;
+	text-align: right;
+}
+
+.ozone .ui-dialog .ui-dialog-buttonpane button,
+.ozone.ui-dialog .ui-dialog-buttonpane button {
+	margin: 6px;
+}
+
+/* Dialog handle styles */
+.ozone .ui-dialog .ui-resizable-n,
+.ozone.ui-dialog .ui-resizable-n { cursor: n-resize; height: 6px; width: 95%; top: 0px; left: 10px; background: transparent url(i/window_header_tile.png) repeat scroll center top; }
+
+.ozone .ui-dialog .ui-resizable-s,
+.ozone.ui-dialog .ui-resizable-s { cursor: s-resize; height: 11px; width: 95%; bottom: 0px; left: 10px; background: transparent url(i/window_bottom_tile.png) repeat scroll center top; }
+
+.ozone .ui-dialog .ui-resizable-e,
+.ozone.ui-dialog .ui-resizable-e { cursor: e-resize; width: 10px; right: 0px; top: 10px; height: 95%; background: transparent url(i/window_right.png) repeat scroll right center; }
+
+.ozone .ui-dialog .ui-resizable-w,
+.ozone.ui-dialog .ui-resizable-w { cursor: w-resize; width: 10px; left: 0px; top: 10px; height: 95%; background: transparent url(i/window_left.png) repeat scroll right center; }
+
+.ozone .ui-dialog .ui-resizable-se,
+.ozone.ui-dialog .ui-resizable-se { cursor: se-resize; width: 10px; height: 11px; right: 0px; bottom: 0px; background: transparent url(i/window_bottom_right.png); }
+
+.ozone .ui-dialog .ui-resizable-sw,
+.ozone.ui-dialog .ui-resizable-sw { cursor: sw-resize; width: 10px; height: 11px; left: 0px; bottom: 0px; background: transparent url(i/window_bottom_left.png); }
+
+.ozone .ui-dialog .ui-resizable-nw,
+.ozone.ui-dialog .ui-resizable-nw { cursor: nw-resize; width: 10px; height: 25px; left: 0px; top: 0px; background: transparent url(i/window_header_left.png); }
+
+.ozone .ui-dialog .ui-resizable-ne,
+.ozone.ui-dialog .ui-resizable-ne { cursor: ne-resize; width: 10px; height: 25px; right: 0px; top: 0px; background: transparent url(i/window_header_right.png); }

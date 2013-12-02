@@ -1,0 +1,36 @@
+												
+#nos #nosHead {
+			  margin-bottom: 5px;
+}						
+						
+#nos .field {
+  width: 98%;
+	background-color: #fff;
+  padding: 5px;			 
+	-moz-border-radius: 5px;
+	border: 1px solid transparent;			  
+}
+			
+#nos .field-hover {
+	border-color: #77ACFD;
+}
+			
+#nos #nosTools {
+  float: left;
+	width: 80px;			 			 
+}
+			
+#nos #nosNewDir {
+  background-image: url(../icons/newfolder-icon.png);       			 
+}
+			
+#nos .tree {
+  float: left;
+  width:98%;				 
+  border-width: 1px;
+  -moz-border-radius: 5px;        				
+	background: #FFF;
+	overflow: auto;
+	padding: 5px;
+	max-height: 280px;
+}						

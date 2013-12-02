@@ -1,0 +1,13 @@
+#calcButtons input {
+  width: 40px;
+} 
+
+#win {
+  height:30px;
+  width:190px;
+  text-align:right;
+  font-size:20px;
+  font-weight:bold;
+  border:1px solid #666666;
+  padding-right:2px;
+}

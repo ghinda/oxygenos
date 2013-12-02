@@ -1,0 +1,33 @@
+#padTools {
+  float: left;
+  width: 100%;    
+}
+
+#padNew {
+  background-image: url(../icons/new-icon.png);
+}
+
+#padSave {
+  background-image: url(../icons/save-icon.png);
+}
+
+#padOpen {
+  background-image: url(../icons/open-icon.png);
+}
+
+#padArea {
+  width: 98%;
+  min-height: 280px;
+  padding: 10px;
+  margin-top: 5px;
+  -moz-border-radius: 5px;
+	border: 1px solid transparent;
+}
+
+#padFileContent {
+  display: none;
+}
+
+.pad-hover {
+  border-color: #77ACFD;
+}

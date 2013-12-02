@@ -1,0 +1,5 @@
+The GNU Operating System and the Free Software Movement
+
+What if there were a worldwide group of talented ethical programmers voluntarily committed to the idea of writing and sharing software with each other and with anyone else who agreed to share alike? What if anyone could be a part of and benefit from this community even without being a computer expert or knowing anything about programming? We wouldn’t have to worry about getting caught copying a useful program for our friends—because we wouldn’t be doing anything wrong.
+
+In fact, such a movement exists, and you can be a part of it. The free software movement was started in 1983 by computer scientist Richard M. Stallman, when he launched a project called GNU, which stands for “GNU is Not UNIX”, to provide a replacement for the UNIX operating system—a replacement that would respect the freedoms of those using it. Then in 1985, Stallman started the Free Software Foundation, a nonprofit with the mission of advocating and educating on behalf of computer users around the world.
